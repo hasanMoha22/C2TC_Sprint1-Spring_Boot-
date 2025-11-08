@@ -21,6 +21,7 @@ import jakarta.persistence.NoResultException;
 public class CollegeController {
 	@Autowired
 	private CollegeService c;
+
 	
 	@GetMapping("/CollegeService")
 	public List<College> list(){
